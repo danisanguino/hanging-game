@@ -7,7 +7,7 @@
 }
 
 body {
-  /* Poner degradado */
+  /* background: linear-gradient(to right, blueviolet, violet) */
   background-color: blueviolet;
 }
 
@@ -21,11 +21,16 @@ h3 {
   line-height: 0.5rem;
 }
 
+.btn-letters {
+  width: 500px;
+  margin: 0 auto;
+}
+
 button {
   margin: 5px;
   cursor: pointer;
   font-size: 1.3rem;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 1.2rem;
   background-color: blue;
   border-color: white;
   border-radius: 5px;
@@ -40,6 +45,21 @@ button:hover {
 }
 
 button:active {
+  background-color: black;
+}
+
+.btn-again {
+  background-color: rgb(5, 5, 165);
+  font-size: 0.8rem;
+  font-weight: bold;
+  transition: all ease 0.2s;
+}
+
+.btn-again:hover {
+  background-color: blue;
+}
+
+.btn-again:active {
   background-color: black;
 }
 
