@@ -1,7 +1,7 @@
 <h1 align="center">Hangman Game - Sports Edition 🎮⚽🏀</h1>
 <h2>The Game of your live</h2>
 
-<img src="hangman-game.jpg" alt="hangman game"/> 
+<img src="public/hangman-game.jpg" alt="hangman game"/> 
 
 <p>This is a simple <strong>Hangman game</strong> built with <strong>React</strong> and <strong>TypeScript</strong>, where the main theme revolves around <strong>sports names</strong>. The game is designed to help users guess the names of different sports in <strong>English</strong>.</p>
 
@@ -34,4 +34,10 @@
 </ul>
 
 <p>This project is ideal for beginners learning <strong>React</strong> and <strong>TypeScript</strong>, or anyone looking for a fun coding challenge while learning about different sports!</p>
+
+<p align="center">
+  <a href="https://hanging-game-kappa.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Play%20Now%20%F0%9F%8E%AE-FF4500?style=for-the-badge" alt="Play Now">
+  </a>
+</p>
 
