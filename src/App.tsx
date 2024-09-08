@@ -72,14 +72,14 @@ function App() {
   return (
     <div className='App'>
         <h1>The Game of your life</h1>
-        <h3>Name of Sports</h3>
+        <h3>Name of Sport</h3>
         <HangImages imageNumber={attemps}/>
 
 
         {/* WORD */}
         <h3>{hiddenWord}</h3>
         <h3>Attemps = {attemps}</h3>
-        { (lose) ? <h3>You Lose! The word is {word}</h3>: ""}
+        { (lose) ? <h3>You Lose! The word is: {word}</h3>: ""}
         { (won) ? <h3>YOU WIN!!</h3>: ""}
 
         <div className='btn-letters'>
