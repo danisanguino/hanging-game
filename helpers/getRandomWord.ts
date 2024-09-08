@@ -1,9 +1,27 @@
-const randomWords: string[] = ["ZAPATERO", "RAJOY", "ABASCAL", "IGLESIAS","MONTERO", "MONEDERO", "ECHENIQUE", "FEIJOO", "AZNAR", "GONZALEZ", "MONTESINOS"]
+const randomWords: string[] = [
+  "Basketball",
+  "Soccer",
+  "Baseball",
+  "Football",
+  "Tennis",
+  "Volleyball",
+  "Cricket",
+  "Swimming",
+  "Boxing",
+  "Rugby",
+  "Golf",
+  "Hockey",
+  "Cycling",
+  "Surfing",
+  "Badminton",
+  "Skate",
+  "Wrestling"]
 
 export function getRandomWord () {
 
     const randomIndex = Math.floor(Math.random() * randomWords.length);
     
-    return randomWords[randomIndex]
+    return randomWords[randomIndex].toUpperCase();
 
 }
+

@@ -8,17 +8,19 @@
 
 body {
   /* background: linear-gradient(to right, blueviolet, violet) */
-  background-color: blueviolet;
+  background-color: #f0af22;
 }
 
 h1 {
   font-family: "Permanent Marker", cursive;
+  margin: 0;
 }
 
 h3 {
   font-family: "Permanent Marker", cursive;
   font-size: 2rem;
-  line-height: 0.5rem;
+  line-height: 2.5rem;
+  margin: 0;
 }
 
 .btn-letters {
@@ -31,7 +33,7 @@ button {
   cursor: pointer;
   font-size: 1.3rem;
   padding: 0.7rem 1.2rem;
-  background-color: blue;
+  background-color: rgb(255, 98, 0);
   border-color: white;
   border-radius: 5px;
   color: white;
@@ -40,7 +42,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(5, 5, 165);
+  background-color: rgb(223, 110, 4);
   
 }
 
@@ -49,14 +51,14 @@ button:active {
 }
 
 .btn-again {
-  background-color: rgb(5, 5, 165);
+  background-color: rgb(255, 17, 0);
   font-size: 0.8rem;
   font-weight: bold;
   transition: all ease 0.2s;
 }
 
 .btn-again:hover {
-  background-color: blue;
+  background-color: rgb(212, 15, 1);
 }
 
 .btn-again:active {
